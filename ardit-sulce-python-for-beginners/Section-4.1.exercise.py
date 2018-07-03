@@ -8,8 +8,8 @@
 
 ids=["B3","\nB4","\nB5","\nB6"]
 
-file = open("Section-4.1.output.txt", 'w')
-for id in ids:
-    file.write(id)
-file.close()
+with open("Section-4.1.output.txt", 'w') as file:
+    for id in ids:
+        file.write(id)
+
 
